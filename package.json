@@ -124,7 +124,13 @@
     "extends": [
       "config:base"
     ],
-    "schedule": "at 08:40 pm on Wednesday",
-    "timezone": "Europe/Zurich"
+    "schedule": "at 08:50 pm on Wednesday",
+    "timezone": "Europe/Zurich",
+    "packageRules": [
+      {
+        "packagePatterns": [".*"],
+        "groupName": "any"
+      }
+    ]
   }
 }
